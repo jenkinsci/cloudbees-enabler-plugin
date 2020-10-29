@@ -54,9 +54,6 @@ public final class CloudBeesUpdateSiteConfigurer {
         ucs = new HashMap<>();
         UpdateCenterInfo uc;
 
-        uc = new UpdateCenterInfo("devoptics", "DevOptics", "http://jenkins-updates.cloudbees.com/update-center/devoptics/update-center.json");
-        ucs.put(uc.getId(), uc);
-
         uc = new UpdateCenterInfo("sdm", "SDM", "http://jenkins-updates.cloudbees.com/update-center/sdm/update-center.json");
         ucs.put(uc.getId(), uc);
     }

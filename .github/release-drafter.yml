@@ -1,4 +1,4 @@
 _extends: .github
-name-template: $NEXT_PATCH_VERSION
-tag-template: cloudbees-enabler-$NEXT_PATCH_VERSION
-version-template: $MAJOR.$MINOR.$PATCH
+name-template: $NEXT_MINOR_VERSION
+tag-template: cloudbees-enabler-$NEXT_MINOR_VERSION
+version-template: $MAJOR.$MINOR

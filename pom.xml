@@ -38,7 +38,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
-  <name>Cloudbees Installation Plugin</name>
+  <name>CloudBees Installation Plugin</name>
   <description>
     Makes CloudBees Products available in Jenkins.
   </description>

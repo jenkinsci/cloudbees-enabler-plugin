@@ -42,7 +42,7 @@
   <description>
     Makes CloudBees Products available in Jenkins.
   </description>
-  <url>https://github.com/jenkinsci/cloudbes-enabler-plugin</url>
+  <url>https://github.com/jenkinsci/cloudbees-enabler-plugin</url>
   <licenses>
     <license>
       <name>The MIT license</name>

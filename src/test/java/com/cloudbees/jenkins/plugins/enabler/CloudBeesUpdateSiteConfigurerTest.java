@@ -26,6 +26,7 @@ package com.cloudbees.jenkins.plugins.enabler;
 import hudson.model.UpdateCenter;
 import hudson.model.UpdateSite;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.jvnet.hudson.test.JenkinsRule;
@@ -45,6 +46,7 @@ public final class CloudBeesUpdateSiteConfigurerTest {
         }
     };
 
+    @Ignore("The plugin currently does not configure any update sites")
     @Test
     public void configured() {
         final List<UpdateSite> sites;
@@ -52,7 +54,7 @@ public final class CloudBeesUpdateSiteConfigurerTest {
         synchronized (updateCenter) {
             sites = new ArrayList<>(updateCenter.getSites());
         }
-        Assert.assertTrue("Update sites configured", sites.stream().anyMatch(s -> s instanceof CloudBeesUpdateSite));
+        Assert.assertTrue("CloudBees update sites should be configured", sites.stream().anyMatch(s -> s instanceof CloudBeesUpdateSite));
     }
 
 }

@@ -54,8 +54,7 @@ public final class CloudBeesUpdateSiteConfigurer {
         ucs = new HashMap<>();
         UpdateCenterInfo uc;
 
-        uc = new UpdateCenterInfo("sdm", "SDM", "http://jenkins-updates.cloudbees.com/update-center/sdm/update-center.json");
-        ucs.put(uc.getId(), uc);
+        // Add new update centers here and unignore CloudBeesUpdateSiteConfigurerTest.configured once ucs is no longer empty.
     }
 
     /** Constructor. */

@@ -1,4 +1,0 @@
-_extends: .github
-name-template: $NEXT_MINOR_VERSION
-tag-template: cloudbees-enabler-$NEXT_MINOR_VERSION
-version-template: $MAJOR.$MINOR

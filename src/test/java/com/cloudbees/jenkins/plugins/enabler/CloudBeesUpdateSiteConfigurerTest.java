@@ -46,7 +46,6 @@ public final class CloudBeesUpdateSiteConfigurerTest {
         }
     };
 
-    @Ignore("The plugin currently does not configure any update sites")
     @Test
     public void configured() {
         final List<UpdateSite> sites;

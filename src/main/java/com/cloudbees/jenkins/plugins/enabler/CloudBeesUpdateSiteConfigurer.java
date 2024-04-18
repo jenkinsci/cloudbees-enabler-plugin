@@ -54,7 +54,8 @@ public final class CloudBeesUpdateSiteConfigurer {
         ucs = new HashMap<>();
         UpdateCenterInfo uc;
 
-        // Add new update centers here and unignore CloudBeesUpdateSiteConfigurerTest.configured once ucs is no longer empty.
+        uc = new UpdateCenterInfo("cloudbees-platform-insights", "CloudBees Platform Insights", "https://jenkins-updates.cloudbees.com/update-center/cloudbees-platform-insights/update-center.json");
+        ucs.put(uc.getId(), uc);
     }
 
     /** Constructor. */

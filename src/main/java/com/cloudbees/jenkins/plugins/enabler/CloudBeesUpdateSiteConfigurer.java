@@ -54,7 +54,11 @@ public final class CloudBeesUpdateSiteConfigurer {
         ucs = new HashMap<>();
         UpdateCenterInfo uc;
 
-        uc = new UpdateCenterInfo("cloudbees-platform-insights", "CloudBees Platform Insights", "https://jenkins-updates.cloudbees.com/update-center/cloudbees-platform-insights/update-center.json");
+        uc = new UpdateCenterInfo(
+                "cloudbees-cbp-unify-integration",
+                "CloudBees Unify Integration",
+                "https://jenkins-updates.cloudbees.com/update-center/cloudbees-cbp-unify-integration/update-center.json");
+
         ucs.put(uc.getId(), uc);
     }
 
